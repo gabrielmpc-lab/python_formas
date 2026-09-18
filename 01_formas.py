@@ -51,6 +51,10 @@ def Trapézio():
 def Sair():
     print("Saindo do sistema...")
 
+def Tente_novamente():
+    print("Opção inválida. Tente novamente!")
+
+
 while True:
 
     print("CÁLCULO DE FORMAS")
@@ -91,4 +95,5 @@ while True:
         break
 
     else:
-        print("Opção inválida. Tente novamente!")
+        Tente_novamente()
+        break
